@@ -39,6 +39,7 @@ REG delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /
 
 在你启动服务端之前, 运行ProcessHacker.exe(如果你的资源够用可以先启动服务端)
 选择到网易启动的javaw.exe进程并右键, 点击"亲和性", 只选用任意一个CPU(默认全选), 点击确定, 这样能减少客户端占用的CPU核心.
+
 ![image](https://github.com/Koud-Wind/Starting-minecraft-in-the-VPS-host/assets/123817318/647b237f-14a6-4a68-b32c-a50460fdfb9b)
 
 
