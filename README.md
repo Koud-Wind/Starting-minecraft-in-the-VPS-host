@@ -15,7 +15,7 @@
 
 > `setx _JAVA_OPTIONS -javaagent:路径\\llvmpipe-loader-1.0.jar=llvmpipe /m` 用于添加这个环境变量
 
-> `REG delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /F /V _JAVA_OPTIONS` 用于删除这个环境变量
+> `setx _JAVA_OPTIONS "" /m` 用于删除这个环境变量
 
 <br>
 
